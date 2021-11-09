@@ -1,0 +1,45 @@
+// compress : true
+
+@import "vars";
+
+html{
+	font-size: 1.25rem;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+	font-size: 1.25rem;
+	background-color: @desert_sand;
+    color: @white;
+
+		&.no-scroll{
+			overflow: hidden;
+		}
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+p{
+	margin: 0 0 1rem;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+// Blocks
+
+@import "blocks/container.less";
+@import "blocks/header.less";
+@import "blocks/nav.less";
+@import "blocks/main.less";
+
+
+
