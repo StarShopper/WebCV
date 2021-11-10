@@ -15,7 +15,7 @@
     <title>My Website CV</title>
 </head>
 
-<body>
+<body style="overflow: hidden;">
 
     <header class="header">
         <div class="container">
@@ -50,8 +50,8 @@
                             <a class="social__link" href="#" target="_blank">
                                 <i class="fab fa-linkedin"></i>
 
-                            <a class="social__link" href="#" target="_blank">
-                                <i class="fab fa-github"></i>
+                                <a class="social__link" href="#" target="_blank">
+                                    <i class="fab fa-github"></i>
                         </div>
 
                         <div class="circles">
@@ -69,7 +69,302 @@
         </div>
     </section>
 
+    <!-- MODAL_RESUME -->
 
+
+    <div class="modal" id="modal_resume">
+        <div class="modal__dialog">
+
+            <button class="modal__close" type="button" data-close>
+                <a href=""><i class="fas fa-times"></i></a>
+            </button>
+
+            <div class="modal__content  text-center">
+                <h3 class="modal__title">Resume</h3>
+
+                <div class="text-center">
+                    <a class="btn btn--thin" href="#" download="/fe_portfolio/ images/resume_ph.png">Download PDF</a>
+                    <a class="btn btn--thin" href="javascript:(print());">Print</a>
+
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline__col timeline__col--left">
+                        <h4 class="timeline__title">EXPERIECE</h4>
+
+                        <div class="timeline__item">
+                            <time class="timeline__date" datetime="21-11-2020"> 2021 - <b>October</b></time>
+                            <h5 class="timeline__subtitle">Junior Front-End Developer</h5>
+                            <div class="timeline__text">
+                                <p>
+                                    Actively participated in the creation of business-idea called
+                                    “Stenograph”<br>Workein a team.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__item">
+                            <time class="timeline__date" datetime="21-11-2020"> 2020 - <b>November</b></time>
+                            <h5 class="timeline__subtitle">Freelancer</h5>
+                            <div class="timeline__text">
+                                <p>
+                                    Wrote test documentation (bug reports, test-cases, checklists)<br>
+                                    Conducted usability, functional, UX, GUI testing<br>
+                                    Made 10+ bug and error reports<br>
+                                    Performed reviews, walkthroughs<br>
+                                    Provided application instructions for users<br>
+                                    Provided cross browser tests<br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <h4 class="timeline__title">Awards</h4>
+
+                        <div class="timeline__item">
+                            <time class="timeline__date" datetime="02-10-2021"> October 2021 </time>
+                        </div>
+                        <div class="timeline__text">
+                            <p>
+                                Won first place in Startup Hackathon by 1UP StartUp.
+                            </p>
+                        </div>
+
+                        <div class="timeline__item">
+                            <time class="timeline__date" datetime="14-08-2018"> August 2018 </time>
+                        </div>
+                        <div class="timeline__text">
+                            <p>
+                                Won 5€ in Ben and Jerry's Entry Test 2019 by TestBirds.
+                            </p>
+                        </div>
+
+                        <h4 class="timeline__title">Certigicates <br>
+                            and Courses</h4>
+
+                        <div class="timeline__item">
+                            <time class="timeline__date"> Oct. 2021 - Present</time>
+
+                            <div class="timeline__text">
+                                <p>
+                                    4IRE Academy. JS School.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__item">
+                            <time class="timeline__date"> Feb 2020 – July 2020</time>
+
+                            <div class="timeline__text">
+                                <p>
+                                    Exadel inc. QA: From Zero to Junior. Basic Course
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__item">
+                            <time class="timeline__date">Sep 2019 – Oct 2019</time>
+
+                            <div class="timeline__text">
+                                <p>
+                                    QA TestLab The Fundamentals of Software Testing.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="timeline__col timeline__col--right">
+                        <h4 class="timeline__title">Education</h4>
+
+                        <div class="timeline__item">
+                            <time class="timeline__date" datetime="01-09-2018"> 2018 - Present </time>
+                            <h5 class="timeline__subtitle">Mykhailo Kotsiubynskyi State Pedagogical University,</h5>
+                            <div class="timeline__position">Faculty of Foreign Languages, Secondary Education. Languages
+                                and Literature (English, German)</div>
+                        </div>
+
+                        <h4 class="timeline__title">Skills</h4>
+
+                        <div class="progress-bar">
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">HTML5</div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">CSS3
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">JavaScript</div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">LESS/Sass
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 40%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">ReactJS
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 10%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">NodeJS
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 10%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">BEM
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">DOM
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">JQuery
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">SQL
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 40%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">MongoDB
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 20%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">Git/GitHub
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 50%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">Figma
+                                    </div>
+                                </div>
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 40%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--PROGRES-BAR END-->
+
+                        <h4 class="timeline__title">Languages</h4>
+
+                        <div class="timeline__item">
+                            <h5 class="timeline__subtitle">English - Upper Intermrdiate</h5>
+                        </div>
+                        <div class="timeline__item">
+                            <h6 class="timeline__subtitle">Ukrainian - Fluent</h6>
+                        </div>
+                        <div class="timeline__item">
+                            <h5 class="timeline__subtitle">Russian – Fluent</h5>
+                        </div>
+                        <div class="timeline__item">
+                            <h5 class="timeline__subtitle">German - Basic</h5>
+                        </div>
+                        <div class="timeline__item">
+                            <h5 class="timeline__subtitle">Polish - Basic</h5>
+                        </div>
+                    </div>
+                    <!--TIMELINE__COL END-->
+                </div>
+                <!--TIMELINE END-->
+
+                <div class="text-center">
+                    <a class="btn --hr" href="#" data-modal="#modal_hire_me">back</a>
+                </div>
+
+            </div>
+            <!--MODAL__CONTENT END-->
+
+        </div>
+        <!--MODAL__DIALOG END-->
+
+    </div>
+    <!--MODAL-RESUME END-->
 
 </body>
 
