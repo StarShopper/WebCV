@@ -1,19 +1,26 @@
 // main: ../style.less
 
 .nav{
-    display: flex;
-    flex-wrap: wrap;
+
     height: 100%;
     align-items: center;
 }
 
 .nav__link{
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.2rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     text-decoration: none;
+    color: @white;
+    padding: 0.3rem 0rem;
     position: relative;
+
+
+    &:hover{
+        color: @black;
+        transition: color .2s linear;
+    }
 
     &:first-child{
         margin-left: 0;

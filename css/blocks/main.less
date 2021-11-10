@@ -1,5 +1,11 @@
 // main: ../style.less
 
+.main{
+    margin: 0;
+    background: url(/images/cut-main-bg.jpg)  no-repeat;
+
+}
+
 .main__inner{
     display: flex;
     justify-content: space-between;
@@ -7,9 +13,10 @@
 
 .main__subtitle{
 font-family: "Alfa Slab One";
-font-size: 2rem;
+font-size: 45px;
 font-weight: 400;
 text-align: left;
+padding-top: 65px;
 }
 
 .main__name{
@@ -17,8 +24,27 @@ font-family: "Alfa Slab One";
 font-size: 2rem;
 font-weight: 400;
 text-align: left;
+padding-top: 30px;
 }
 
 .main__position{
+    font-family: "Alfa Slab One";
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    color: @apricot;
+    padding-top: 6px;
+}
 
+.social__link(i){
+    color: @white;
+    padding: 16px 26px 0px 0px;
+        &:last-child{
+            padding-right: 0px;
+        }
+
+        {
+            width: 30px;
+            height: 30px;
+        }
 }
